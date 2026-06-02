@@ -1,8 +1,6 @@
-__pycache__/
-*.pyc
 venv/
 .venv/
-.env
+__pycache__/
+*.pyc
 *.log
-reports/*.json
-!reports/example_report.json
+.env
