@@ -20,7 +20,6 @@ Ce dépôt centralise les scripts et configurations du projet NetBuild Secure.
       - DFIR & Threat Hunting :
          - Velociraptor by Rapid7 (Opensource)
       - SOAR & Alerting : Shuffle opéré avec Slack (Opensource)
-      - Malware Analysis : Sandbox Windows 10 via Snapshots Proxmox | CAPEv2 -> Analyse automatique
       - Uptime Kuma : Ping le réseau pour voir ce qui est DOWN opéré avec Slack
 
 ## Structure
