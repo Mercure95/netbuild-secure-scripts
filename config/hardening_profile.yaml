@@ -1,0 +1,20 @@
+hardening_commands:
+  - service password-encryption
+  - no ip http server
+  - no ip http secure-server
+  - ip ssh version 2
+  - no ip source-route
+  - no service pad
+  - security passwords min-length 10
+  - login block-for 120 attempts 3 within 60
+  - banner motd ^CAcces reserve aux administrateurs autorises^C
+
+compliance_checks:
+  - service password-encryption
+  - no ip http server
+  - no ip http secure-server
+  - ip ssh version 2
+  - no ip source-route
+  - no service pad
+  - security passwords min-length 10
+  - login block-for
