@@ -14,23 +14,13 @@ Ce dépôt centralise les scripts et configurations du projet NetBuild Secure.
 ## Structure
 
 ```text
-├── config
-│   ├── devices.yaml
-│   └── hardening_profile.yaml
-├── cours_ (5).pdf
-├── docs
-│   └── notes.md
+netbuild-secure-scripts/
+├── config/
+│   ├── devices.yaml              # Liste des équipements réseau ciblés
+│   └── hardening_profile.yaml    # Commandes de durcissement et contrôles de conformité
+├── docs/
+│   └── notes.md                  # Notes techniques et justification des commandes
+├── scripts/
+│   └── hardening_netmiko.py      # Script principal de hardening Cisco avec Netmiko
 ├── README.md
-├── requirements.txt
-├── scripts
-│   ├── hardening_netmiko.py
-│   ├── rules_suricata.rules
-│   ├── soar_playbook.py
-│   └── test_connectivity.sh
-└── venv
-    ├── bin
-    ├── include
-    ├── lib
-    ├── lib64 -> lib
-    ├── pyvenv.cfg
-    └── share
+└── requirements.txt
