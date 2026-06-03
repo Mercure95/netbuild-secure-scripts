@@ -1,0 +1,32 @@
+devices:
+  - name: SW-ACC-PARIS
+    device_type: cisco_ios_telnet
+    host: 100.66.99.105
+    port: 5012
+    username: ""
+    password: ""
+    secret: ""
+
+  - name: SW-LYON-ACC
+    device_type: cisco_ios_telnet
+    host: 100.66.99.105
+    port: 5014
+    username: ""
+    password: ""
+    secret: ""
+
+  - name: SW-PARIS-CORE-01
+    device_type: cisco_ios_telnet
+    host: 100.66.99.105
+    port: 5008
+    username: ""
+    password: ""
+    secret: ""
+
+  - name: SW-PARIS-CORE-02
+    device_type: cisco_ios_telnet
+    host: 100.66.99.105
+    port: 5010
+    username: ""
+    password: ""
+    secret: ""

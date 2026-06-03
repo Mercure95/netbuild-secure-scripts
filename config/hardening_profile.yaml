@@ -17,4 +17,4 @@ compliance_checks:
   - no ip source-route
   - no service pad
   - security passwords min-length 10
-  - login block-for
+  - login block-for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SS
