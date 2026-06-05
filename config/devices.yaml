@@ -30,3 +30,11 @@ devices:
     username: ""
     password: ""
     secret: ""
+  
+  - name:  SW-ACC-MARSEILLE 
+    device_type: cisco_ios_telnet
+    host: 100.66.99.105
+    port: 5017
+    username: ""
+    password: ""
+    secret: ""
